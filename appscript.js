@@ -74,7 +74,7 @@ function FetchAndWrite() {
 
     // Write the column names in the first row
     sheet.getRange(1, 1, 1, headers.length).setValues([headers]);
-
+	//Storing
     Logger.log(jsonDataArray.length);
     for (var i = 0; i < jsonDataArray.length; i++) {
       var jsonData = jsonDataArray[i];
